@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import "../materialize/css/materialize.min.css";
+
+
+body {
+  padding: 10;
+  min-width: 500;
+  min-height: 500;
+  background: rgb(247, 247, 255);
+  overflow-y: hidden;
+}
+
+/* スクロールバー */
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 2px #777; 
+}
+::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 10px;
+  box-shadow: none;
+}

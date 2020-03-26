@@ -1,0 +1,16 @@
+{
+  "name": "multi history viewer",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "multi history viewer",
+  "permissions": [
+    "history"
+  ],
+  "browser_action": {
+    "default_title": "history",
+    "default_popup": "popup/popup.html"
+  },
+  "chrome_url_overrides" : {
+    "history": "popup/popup.html"
+  }
+}
